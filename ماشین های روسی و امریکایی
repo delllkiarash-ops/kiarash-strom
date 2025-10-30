@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ماشین‌های آمریکایی - Kiastorm</title>
+<style>
+body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: gold;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  margin-top: 20px;
+  transition: 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: gold;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px gold;
+}
+
+img {
+  margin-top: 20px;
+  width: 250px;
+}
+</style>
+</head>
+<body>
+
+<h1>ماشین‌های آمریکایی ⚡</h1>
+<p>در این صفحه می‌بینیم معروف‌ترین خودروهای آمریکایی را!</p>
+
+<img src="https://i.imgur.com/ZI21QMN.png" alt="ماشین آمریکایی">
+
+<br><br>
+
+<button onclick="window.location.href='page2.html'">
+  برو به ماشین‌های روسی
+</button>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>ماشین‌های روسی - Kiastorm</title>
+<style>
+body {
+  background: #111;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: gold;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+  color: black;
+  margin-top: 20px;
+  transition: 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: gold;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px gold;
+}
+
+img {
+  margin-top: 20px;
+  width: 250px;
+}
+</style>
+</head>
+<body>
+
+<h1>ماشین‌های روسی ⚡</h1>
+<p>در این صفحه معروف‌ترین خودروهای روسی را می‌بینیم!</p>
+
+<img src="https://i.imgur.com/ZI21QMN.png" alt="ماشین روسی">
+
+<br><br>
+
+<!-- دکمه برگشت به صفحه اول -->
+<button onclick="window.location.href='index.html'">
+  برگشت به ماشین‌های آمریکایی
+</button>
+
+</body>
+</html>
